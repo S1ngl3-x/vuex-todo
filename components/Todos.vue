@@ -15,7 +15,8 @@
         @dblclick="onDblClick(todo)"
       >
         {{ todo.title }}
-        <v-icon class="icon" @click="deleteTodo(todo.id)">mdi-delete</v-icon>
+        <!--        <v-icon class="icon" @click="deleteTodo(todo.id)">mdi-delete</v-icon>-->
+        <v-icon @click="deleteTodo(todo.id)">mdi-delete</v-icon>
       </div>
     </div>
   </div>

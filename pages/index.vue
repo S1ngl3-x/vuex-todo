@@ -3,12 +3,15 @@
     <div class="container">
       <AddTodo />
       <FilterTodos />
+      <test-vuetify-component />
       <Todos />
     </div>
+    `
   </div>
 </template>
 
 <script>
+import TestVuetifyComponent from '@/components/test-vuetify-component';
 import Todos from '~/components/Todos';
 import AddTodo from '~/components/addTodo';
 import FilterTodos from '~/components/filterTodos';
@@ -16,6 +19,7 @@ import FilterTodos from '~/components/filterTodos';
 export default {
   name: 'App',
   components: {
+    TestVuetifyComponent,
     FilterTodos,
     AddTodo,
     Todos,
