@@ -3,14 +3,14 @@
     <div class="container">
       <AddTodo />
       <FilterTodos />
-      <test-vuetify-component />
+      <!--      <test-vuetify-component />-->
       <Todos />
     </div>
-    `
   </div>
 </template>
 
 <script>
+/* eslint-disable vue/no-unused-components */
 import TestVuetifyComponent from '@/components/test-vuetify-component';
 import Todos from '~/components/Todos';
 import AddTodo from '~/components/addTodo';
